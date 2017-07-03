@@ -198,10 +198,10 @@
 
 		  
 		  
-			{
+		  {
             "annotation": [
               {
-                "displayName": "Suraj1 transfers", 
+                "displayName": "Memory 1",
                 "locale": "en-us"
               }
             ], 
@@ -215,7 +215,7 @@
           {
             "annotation": [
               {
-                "displayName": "Suraj2 hello", 
+                "displayName": "Memory2", 
                 "locale": "en-us"
               }
             ], 
