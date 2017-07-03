@@ -359,7 +359,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": "Name=\"/mnt/resource\"", 
             "counter": "percentusedinodes", 
             "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
             "type": "builtin", 
