@@ -188,7 +188,7 @@
             "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
             "type": "builtin", 
             "unit": "Percent"
-          }
+          },
 
 
 
