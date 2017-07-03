@@ -48,9 +48,9 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": 'Name="/mnt/resource"', 
+            "condition": "IsAggregate=TRUE",
             "counter": "percentfreespace", 
-            "counterSpecifier": "/builtin/filesystem/percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace(/mnt/resource)", 
             "type": "builtin", 
             "unit": "Percent"
           }
