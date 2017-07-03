@@ -190,7 +190,208 @@
             "unit": "Percent"
           }
 
-		
+
+
+
+
+
+
+
+	      {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem % free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem % used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "Name=\"/mountdisk"", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "SurajFilesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }
+
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+		  
 		
 		
 		
