@@ -201,7 +201,7 @@
 			{
             "annotation": [
               {
-                "displayName": "RootDisk transfers", 
+                "displayName": "Suraj1", 
                 "locale": "en-us"
               }
             ], 
@@ -215,7 +215,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk free space", 
+                "displayName": "Suraj2", 
                 "locale": "en-us"
               }
             ], 
@@ -225,147 +225,7 @@
             "counterSpecifier": "/builtin/filesystem/percentfreespace", 
             "type": "builtin", 
             "unit": "Percent"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDiskused space", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "percentusedspace", 
-            "counterSpecifier": "/builtin/filesystem/percentusedspace", 
-            "type": "builtin", 
-            "unit": "Percent"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDiskused space", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "usedspace", 
-            "counterSpecifier": "/builtin/filesystem/usedspace", 
-            "type": "builtin", 
-            "unit": "Bytes"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDisk bytes/sec", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "bytesreadpersecond", 
-            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond", 
-            "type": "builtin", 
-            "unit": "CountPerSecond"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDisk free2 space", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "freespace", 
-            "counterSpecifier": "/builtin/filesystem/freespace", 
-            "type": "builtin", 
-            "unit": "Bytes"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDiskfree inodes", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "percentfreeinodes", 
-            "counterSpecifier": "/builtin/filesystem/percentfreeinodes", 
-            "type": "builtin", 
-            "unit": "Percent"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDisk bytes2/sec", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "bytespersecond", 
-            "counterSpecifier": "/builtin/filesystem/bytespersecond", 
-            "type": "builtin", 
-            "unit": "BytesPerSecond"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDisk reads2/sec", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "readspersecond", 
-            "counterSpecifier": "/builtin/filesystem/readspersecond", 
-            "type": "builtin", 
-            "unit": "CountPerSecond"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDisk write bytes2/sec", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "byteswrittenpersecond", 
-            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond", 
-            "type": "builtin", 
-            "unit": "CountPerSecond"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDisk writes2/sec", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "writespersecond", 
-            "counterSpecifier": "/builtin/filesystem/writespersecond", 
-            "type": "builtin", 
-            "unit": "CountPerSecond"
-          }, 
-          {
-            "annotation": [
-              {
-                "displayName": "RootDiskused2 inodes", 
-                "locale": "en-us"
-              }
-            ], 
-            "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
-            "counter": "percentusedinodes", 
-            "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
-            "type": "builtin", 
-            "unit": "Percent"
-          }		  
+          }
 		  
 		  
 		  
