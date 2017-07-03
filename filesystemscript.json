@@ -201,7 +201,7 @@
 			{
             "annotation": [
               {
-                "displayName": "RootDisk transfers/sec", 
+                "displayName": "RootDisk transfers", 
                 "locale": "en-us"
               }
             ], 
@@ -215,7 +215,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk % free space", 
+                "displayName": "RootDisk free space", 
                 "locale": "en-us"
               }
             ], 
@@ -229,7 +229,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk % used space", 
+                "displayName": "RootDiskused space", 
                 "locale": "en-us"
               }
             ], 
@@ -243,7 +243,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk used space", 
+                "displayName": "RootDiskused space", 
                 "locale": "en-us"
               }
             ], 
@@ -257,7 +257,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk read bytes/sec", 
+                "displayName": "RootDisk bytes/sec", 
                 "locale": "en-us"
               }
             ], 
@@ -271,7 +271,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk free space", 
+                "displayName": "RootDisk free2 space", 
                 "locale": "en-us"
               }
             ], 
@@ -285,7 +285,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk % free inodes", 
+                "displayName": "RootDiskfree inodes", 
                 "locale": "en-us"
               }
             ], 
@@ -299,7 +299,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk bytes/sec", 
+                "displayName": "RootDisk bytes2/sec", 
                 "locale": "en-us"
               }
             ], 
@@ -313,7 +313,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk reads/sec", 
+                "displayName": "RootDisk reads2/sec", 
                 "locale": "en-us"
               }
             ], 
@@ -327,7 +327,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk write bytes/sec", 
+                "displayName": "RootDisk write bytes2/sec", 
                 "locale": "en-us"
               }
             ], 
@@ -341,7 +341,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk writes/sec", 
+                "displayName": "RootDisk writes2/sec", 
                 "locale": "en-us"
               }
             ], 
@@ -355,7 +355,7 @@
           {
             "annotation": [
               {
-                "displayName": "RootDisk % used inodes", 
+                "displayName": "RootDiskused2 inodes", 
                 "locale": "en-us"
               }
             ], 
