@@ -205,7 +205,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "transferspersecond", 
             "counterSpecifier": "/builtin/filesystem/transferspersecond", 
             "type": "builtin", 
@@ -219,7 +219,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace", 
             "type": "builtin", 
@@ -233,7 +233,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "percentusedspace", 
             "counterSpecifier": "/builtin/filesystem/percentusedspace", 
             "type": "builtin", 
@@ -247,7 +247,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "usedspace", 
             "counterSpecifier": "/builtin/filesystem/usedspace", 
             "type": "builtin", 
@@ -261,7 +261,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "bytesreadpersecond", 
             "counterSpecifier": "/builtin/filesystem/bytesreadpersecond", 
             "type": "builtin", 
@@ -275,7 +275,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "freespace", 
             "counterSpecifier": "/builtin/filesystem/freespace", 
             "type": "builtin", 
@@ -289,7 +289,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "percentfreeinodes", 
             "counterSpecifier": "/builtin/filesystem/percentfreeinodes", 
             "type": "builtin", 
@@ -303,7 +303,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "bytespersecond", 
             "counterSpecifier": "/builtin/filesystem/bytespersecond", 
             "type": "builtin", 
@@ -317,7 +317,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "readspersecond", 
             "counterSpecifier": "/builtin/filesystem/readspersecond", 
             "type": "builtin", 
@@ -331,7 +331,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "byteswrittenpersecond", 
             "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond", 
             "type": "builtin", 
@@ -345,7 +345,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=\"/mountdisk"", 
+            "condition": "Name=\"/mnt/resource"", 
             "counter": "writespersecond", 
             "counterSpecifier": "/builtin/filesystem/writespersecond", 
             "type": "builtin", 
