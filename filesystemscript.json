@@ -1,5 +1,5 @@
 {
-  "StorageAccount": "//enter",
+  "StorageAccount": "StorageAccounthere",
   "ladCfg": {
     "diagnosticMonitorConfiguration": {
       "eventVolume": "Medium", 
@@ -12,7 +12,7 @@
             "scheduledTransferPeriod": "PT1M"
           }
         ], 
-        "resourceId": "//enter"
+        "resourceId": "VMResourceIdhere"
       }, 
       "performanceCounters": {
         "performanceCounterConfiguration": [
