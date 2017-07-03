@@ -1,0 +1,230 @@
+{
+  "StorageAccount": "//enter",
+  "ladCfg": {
+    "diagnosticMonitorConfiguration": {
+      "eventVolume": "Medium", 
+      "metrics": {
+        "metricAggregation": [
+          {
+            "scheduledTransferPeriod": "PT1H"
+          }, 
+          {
+            "scheduledTransferPeriod": "PT1M"
+          }
+        ], 
+        "resourceId": "//enter"
+      }, 
+      "performanceCounters": {
+        "performanceCounterConfiguration": [
+
+		
+		
+		
+		
+	       {
+            "annotation": [
+              {
+                "displayName": "Filesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem % free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem % used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }
+
+		
+		
+		
+		
+		
+		
+		
+		
+        ]
+      }, 
+      "syslogEvents": {
+        "syslogEventConfiguration": {
+          "LOG_AUTH": "LOG_DEBUG", 
+          "LOG_AUTHPRIV": "LOG_DEBUG", 
+          "LOG_CRON": "LOG_DEBUG", 
+          "LOG_DAEMON": "LOG_DEBUG", 
+          "LOG_FTP": "LOG_DEBUG", 
+          "LOG_KERN": "LOG_DEBUG", 
+          "LOG_LOCAL0": "LOG_DEBUG", 
+          "LOG_LOCAL1": "LOG_DEBUG", 
+          "LOG_LOCAL2": "LOG_DEBUG", 
+          "LOG_LOCAL3": "LOG_DEBUG", 
+          "LOG_LOCAL4": "LOG_DEBUG", 
+          "LOG_LOCAL5": "LOG_DEBUG", 
+          "LOG_LOCAL6": "LOG_DEBUG", 
+          "LOG_LOCAL7": "LOG_DEBUG", 
+          "LOG_LPR": "LOG_DEBUG", 
+          "LOG_MAIL": "LOG_DEBUG", 
+          "LOG_NEWS": "LOG_DEBUG", 
+          "LOG_SYSLOG": "LOG_DEBUG", 
+          "LOG_USER": "LOG_DEBUG", 
+          "LOG_UUCP": "LOG_DEBUG"
+        }
+      }
+    }, 
+    "sampleRateInSeconds": 15
+  }
+}
