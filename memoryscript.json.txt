@@ -1,0 +1,207 @@
+{
+  "StorageAccount": "//enter",
+  "ladCfg": {
+    "diagnosticMonitorConfiguration": {
+      "eventVolume": "Medium", 
+      "metrics": {
+        "metricAggregation": [
+          {
+            "scheduledTransferPeriod": "PT1H"
+          }, 
+          {
+            "scheduledTransferPeriod": "PT1M"
+          }
+        ], 
+        "resourceId": "//enter"
+      }, 
+      "performanceCounters": {
+        "performanceCounterConfiguration": [
+
+
+
+
+
+
+          {
+            "annotation": [
+              {
+                "displayName": "Memory available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "availablememory", 
+            "counterSpecifier": "/builtin/memory/availablememory", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap percent used", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentusedswap", 
+            "counterSpecifier": "/builtin/memory/percentusedswap", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Memory used", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "usedmemory", 
+            "counterSpecifier": "/builtin/memory/usedmemory", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Page reads", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "pagesreadpersec", 
+            "counterSpecifier": "/builtin/memory/pagesreadpersec", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "availableswap", 
+            "counterSpecifier": "/builtin/memory/availableswap", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap percent available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentavailableswap", 
+            "counterSpecifier": "/builtin/memory/percentavailableswap", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Mem. percent available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentavailablememory", 
+            "counterSpecifier": "/builtin/memory/percentavailablememory", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Pages", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "pagespersec", 
+            "counterSpecifier": "/builtin/memory/pagespersec", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap used", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "usedswap", 
+            "counterSpecifier": "/builtin/memory/usedswap", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Memory percentage", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentusedmemory", 
+            "counterSpecifier": "/builtin/memory/percentusedmemory", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Page writes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "pageswrittenpersec", 
+            "counterSpecifier": "/builtin/memory/pageswrittenpersec", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }
+
+
+
+
+
+
+
+
+
+
+        ]
+      }, 
+      "syslogEvents": {
+        "syslogEventConfiguration": {
+          "LOG_AUTH": "LOG_DEBUG", 
+          "LOG_AUTHPRIV": "LOG_DEBUG", 
+          "LOG_CRON": "LOG_DEBUG", 
+          "LOG_DAEMON": "LOG_DEBUG", 
+          "LOG_FTP": "LOG_DEBUG", 
+          "LOG_KERN": "LOG_DEBUG", 
+          "LOG_LOCAL0": "LOG_DEBUG", 
+          "LOG_LOCAL1": "LOG_DEBUG", 
+          "LOG_LOCAL2": "LOG_DEBUG", 
+          "LOG_LOCAL3": "LOG_DEBUG", 
+          "LOG_LOCAL4": "LOG_DEBUG", 
+          "LOG_LOCAL5": "LOG_DEBUG", 
+          "LOG_LOCAL6": "LOG_DEBUG", 
+          "LOG_LOCAL7": "LOG_DEBUG", 
+          "LOG_LPR": "LOG_DEBUG", 
+          "LOG_MAIL": "LOG_DEBUG", 
+          "LOG_NEWS": "LOG_DEBUG", 
+          "LOG_SYSLOG": "LOG_DEBUG", 
+          "LOG_USER": "LOG_DEBUG", 
+          "LOG_UUCP": "LOG_DEBUG"
+        }
+      }
+    }, 
+    "sampleRateInSeconds": 15
+  }
+}
