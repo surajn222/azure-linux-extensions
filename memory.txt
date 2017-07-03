@@ -1,0 +1,143 @@
+          {
+            "annotation": [
+              {
+                "displayName": "Memory available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "availablememory", 
+            "counterSpecifier": "/builtin/memory/availablememory", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap percent used", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentusedswap", 
+            "counterSpecifier": "/builtin/memory/percentusedswap", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Memory used", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "usedmemory", 
+            "counterSpecifier": "/builtin/memory/usedmemory", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Page reads", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "pagesreadpersec", 
+            "counterSpecifier": "/builtin/memory/pagesreadpersec", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "availableswap", 
+            "counterSpecifier": "/builtin/memory/availableswap", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap percent available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentavailableswap", 
+            "counterSpecifier": "/builtin/memory/percentavailableswap", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Mem. percent available", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentavailablememory", 
+            "counterSpecifier": "/builtin/memory/percentavailablememory", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Pages", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "pagespersec", 
+            "counterSpecifier": "/builtin/memory/pagespersec", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Swap used", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "usedswap", 
+            "counterSpecifier": "/builtin/memory/usedswap", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Memory percentage", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "percentusedmemory", 
+            "counterSpecifier": "/builtin/memory/percentusedmemory", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Page writes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "memory", 
+            "counter": "pageswrittenpersec", 
+            "counterSpecifier": "/builtin/memory/pageswrittenpersec", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }
