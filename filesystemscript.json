@@ -193,9 +193,23 @@
             "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
             "type": "builtin", 
             "unit": "Percent"
-          }
+          },
 
 
+	      {
+            "annotation": [
+              {
+                "displayName": "Suraj1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
 		  
 		  
 		  
