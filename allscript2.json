@@ -361,7 +361,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "transferspersecond", 
             "counterSpecifier": "/builtin/filesystem/transferspersecond(/)", 
             "type": "builtin", 
@@ -375,7 +375,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace(/)", 
             "type": "builtin", 
@@ -389,7 +389,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"',
             "counter": "percentusedspace", 
             "counterSpecifier": "/builtin/filesystem/percentusedspace(/)", 
             "type": "builtin", 
@@ -403,7 +403,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"',
             "counter": "usedspace", 
             "counterSpecifier": "/builtin/filesystem/usedspace(/)", 
             "type": "builtin", 
@@ -417,7 +417,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "bytesreadpersecond", 
             "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/)", 
             "type": "builtin", 
@@ -431,7 +431,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "freespace", 
             "counterSpecifier": "/builtin/filesystem/freespace(/)", 
             "type": "builtin", 
@@ -445,7 +445,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "percentfreeinodes", 
             "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/)", 
             "type": "builtin", 
@@ -459,7 +459,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "bytespersecond", 
             "counterSpecifier": "/builtin/filesystem/bytespersecond(/)", 
             "type": "builtin", 
@@ -473,7 +473,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "readspersecond", 
             "counterSpecifier": "/builtin/filesystem/readspersecond(/)", 
             "type": "builtin", 
@@ -487,7 +487,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "byteswrittenpersecond", 
             "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/)", 
             "type": "builtin", 
@@ -501,7 +501,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/"', 
             "counter": "writespersecond", 
             "counterSpecifier": "/builtin/filesystem/writespersecond(/)", 
             "type": "builtin", 
@@ -539,7 +539,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "transferspersecond", 
             "counterSpecifier": "/builtin/filesystem/transferspersecond(/boot)", 
             "type": "builtin", 
@@ -553,7 +553,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace(/boot)", 
             "type": "builtin", 
@@ -567,7 +567,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "percentusedspace", 
             "counterSpecifier": "/builtin/filesystem/percentusedspace(/boot)", 
             "type": "builtin", 
@@ -581,7 +581,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "usedspace", 
             "counterSpecifier": "/builtin/filesystem/usedspace(/boot)", 
             "type": "builtin", 
@@ -595,7 +595,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "bytesreadpersecond", 
             "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/boot)", 
             "type": "builtin", 
@@ -609,7 +609,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "freespace", 
             "counterSpecifier": "/builtin/filesystem/freespace(/boot)", 
             "type": "builtin", 
@@ -623,7 +623,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "percentfreeinodes", 
             "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/boot)", 
             "type": "builtin", 
@@ -637,7 +637,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "bytespersecond", 
             "counterSpecifier": "/builtin/filesystem/bytespersecond(/boot)", 
             "type": "builtin", 
@@ -651,7 +651,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "readspersecond", 
             "counterSpecifier": "/builtin/filesystem/readspersecond(/boot)", 
             "type": "builtin", 
@@ -665,7 +665,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "byteswrittenpersecond", 
             "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/boot)", 
             "type": "builtin", 
@@ -679,7 +679,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "writespersecond", 
             "counterSpecifier": "/builtin/filesystem/writespersecond(/boot)", 
             "type": "builtin", 
@@ -693,7 +693,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/boot"', 
             "counter": "percentusedinodes", 
             "counterSpecifier": "/builtin/filesystem/percentusedinodes(/boot)", 
             "type": "builtin", 
@@ -717,7 +717,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "transferspersecond", 
             "counterSpecifier": "/builtin/filesystem/transferspersecond(/mnt/resource)", 
             "type": "builtin", 
@@ -731,7 +731,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace(/mnt/resource)", 
             "type": "builtin", 
@@ -745,7 +745,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "percentusedspace", 
             "counterSpecifier": "/builtin/filesystem/percentusedspace(/mnt/resource)", 
             "type": "builtin", 
@@ -759,7 +759,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "usedspace", 
             "counterSpecifier": "/builtin/filesystem/usedspace(/mnt/resource)", 
             "type": "builtin", 
@@ -773,7 +773,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "bytesreadpersecond", 
             "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/mnt/resource)", 
             "type": "builtin", 
@@ -787,7 +787,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "freespace", 
             "counterSpecifier": "/builtin/filesystem/freespace(/mnt/resource)", 
             "type": "builtin", 
@@ -801,7 +801,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "percentfreeinodes", 
             "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/mnt/resource)", 
             "type": "builtin", 
@@ -815,7 +815,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "bytespersecond", 
             "counterSpecifier": "/builtin/filesystem/bytespersecond(/mnt/resource)", 
             "type": "builtin", 
@@ -829,7 +829,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "readspersecond", 
             "counterSpecifier": "/builtin/filesystem/readspersecond(/mnt/resource)", 
             "type": "builtin", 
@@ -843,7 +843,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "byteswrittenpersecond", 
             "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/mnt/resource)", 
             "type": "builtin", 
@@ -857,7 +857,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "writespersecond", 
             "counterSpecifier": "/builtin/filesystem/writespersecond(/mnt/resource)", 
             "type": "builtin", 
@@ -871,7 +871,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mnt/resource"', 
             "counter": "percentusedinodes", 
             "counterSpecifier": "/builtin/filesystem/percentusedinodes(/mnt/resource)", 
             "type": "builtin", 
@@ -895,7 +895,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "transferspersecond", 
             "counterSpecifier": "/builtin/filesystem/transferspersecond(/mountdisk)", 
             "type": "builtin", 
@@ -909,7 +909,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace(/mountdisk)", 
             "type": "builtin", 
@@ -923,7 +923,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "percentusedspace", 
             "counterSpecifier": "/builtin/filesystem/percentusedspace(/mountdisk)", 
             "type": "builtin", 
@@ -937,7 +937,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "usedspace", 
             "counterSpecifier": "/builtin/filesystem/usedspace(/mountdisk)", 
             "type": "builtin", 
@@ -951,7 +951,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "bytesreadpersecond", 
             "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/mountdisk)", 
             "type": "builtin", 
@@ -965,7 +965,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "freespace", 
             "counterSpecifier": "/builtin/filesystem/freespace(/mountdisk)", 
             "type": "builtin", 
@@ -979,7 +979,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "percentfreeinodes", 
             "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/mountdisk)", 
             "type": "builtin", 
@@ -993,7 +993,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "bytespersecond", 
             "counterSpecifier": "/builtin/filesystem/bytespersecond(/mountdisk)", 
             "type": "builtin", 
@@ -1007,7 +1007,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "readspersecond", 
             "counterSpecifier": "/builtin/filesystem/readspersecond(/mountdisk)", 
             "type": "builtin", 
@@ -1021,7 +1021,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "byteswrittenpersecond", 
             "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/mountdisk)", 
             "type": "builtin", 
@@ -1035,7 +1035,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "writespersecond", 
             "counterSpecifier": "/builtin/filesystem/writespersecond(/mountdisk)", 
             "type": "builtin", 
@@ -1049,7 +1049,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE", 
+            "condition": 'Name="/mountdisk"', 
             "counter": "percentusedinodes", 
             "counterSpecifier": "/builtin/filesystem/percentusedinodes(/mountdisk)", 
             "type": "builtin", 

@@ -13,6 +13,7 @@ az login
 cd /root
 wget https://github.com/Azure/azure-linux-extensions/blob/master/Diagnostic/tests/lad_2_3_compatible_portal_pub_settings.json -O portal_public_settings.json
 wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/filesystemscript.json
+wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/allscript2.json
 //In the above, change the resource id
 
 export my_resource_group=Suraj-Monitoring
@@ -30,12 +31,12 @@ sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json
 my_diagnostic_storage_account_sastoken=$(az storage account generate-sas --account-name $my_diagnostic_storage_account --expiry 9999-12-31T23:59Z --permissions wlacu --resource-types co --services bt -o tsv)
 my_lad_protected_settings="{'storageAccountName': '$my_diagnostic_storage_account', 'storageAccountSasToken': '$my_diagnostic_storage_account_sastoken'}"
 
-az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings filesystemscript.json
+az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
 
 
 
 
 Command:
-rm -rf filesystemscript.json* && wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/allscript2.json && sed -i -e  's/StorageAccounthere/'$my_diagnostic_storage_account'/g' filesystemscript.json && sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' filesystemscript.json && az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings filesystemscript.json
+rm -rf filesystemscript.json* && wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/filesystemscript.json && sed -i -e  's/StorageAccounthere/'$my_diagnostic_storage_account'/g' filesystemscript.json && sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' filesystemscript.json && az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings filesystemscript.json
 
 
