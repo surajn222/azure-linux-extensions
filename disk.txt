@@ -1,3 +1,449 @@
+			{
+            "annotation": [
+              {
+                "displayName": "Disk read guest OS", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readbytespersecond", 
+            "counterSpecifier": "/builtin/disk/readbytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk writes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/disk/writespersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk transfer time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagetransfertime", 
+            "counterSpecifier": "/builtin/disk/averagetransfertime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk transfers", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/disk/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk write guest OS", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writebytespersecond", 
+            "counterSpecifier": "/builtin/disk/writebytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk read time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagereadtime", 
+            "counterSpecifier": "/builtin/disk/averagereadtime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk write time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagewritetime", 
+            "counterSpecifier": "/builtin/disk/averagewritetime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk total bytes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/disk/bytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk reads", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/disk/readspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk queue length", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagediskqueuelength", 
+            "counterSpecifier": "/builtin/disk/averagediskqueuelength", 
+            "type": "builtin", 
+            "unit": "Count"
+          }, 
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  {
+            "annotation": [
+              {
+                "displayName": "Disk read guest OS", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "readbytespersecond", 
+            "counterSpecifier": "/builtin/disk/readbytespersecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk writes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/disk/writespersecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk transfer time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagetransfertime", 
+            "counterSpecifier": "/builtin/disk/averagetransfertime(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk transfers", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/disk/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk write guest OS", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writebytespersecond", 
+            "counterSpecifier": "/builtin/disk/writebytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk read time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagereadtime", 
+            "counterSpecifier": "/builtin/disk/averagereadtime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk write time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagewritetime", 
+            "counterSpecifier": "/builtin/disk/averagewritetime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk total bytes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/disk/bytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk reads", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/disk/readspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk queue length", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagediskqueuelength", 
+            "counterSpecifier": "/builtin/disk/averagediskqueuelength", 
+            "type": "builtin", 
+            "unit": "Count"
+          }, 
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  {
+            "annotation": [
+              {
+                "displayName": "Disk read guest OS", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readbytespersecond", 
+            "counterSpecifier": "/builtin/disk/readbytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk writes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/disk/writespersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk transfer time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagetransfertime", 
+            "counterSpecifier": "/builtin/disk/averagetransfertime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk transfers", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/disk/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk write guest OS", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writebytespersecond", 
+            "counterSpecifier": "/builtin/disk/writebytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk read time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagereadtime", 
+            "counterSpecifier": "/builtin/disk/averagereadtime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk write time", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagewritetime", 
+            "counterSpecifier": "/builtin/disk/averagewritetime", 
+            "type": "builtin", 
+            "unit": "Seconds"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk total bytes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/disk/bytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk reads", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/disk/readspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Disk queue length", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "averagediskqueuelength", 
+            "counterSpecifier": "/builtin/disk/averagediskqueuelength", 
+            "type": "builtin", 
+            "unit": "Count"
+          }, 
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  {
             "annotation": [
               {
                 "displayName": "Disk read guest OS", 

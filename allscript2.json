@@ -1200,9 +1200,159 @@
             "counterSpecifier": "/builtin/disk/averagediskqueuelength", 
             "type": "builtin", 
             "unit": "Count"
-          } 		  
+          }, 		  
 
 		  
+		
+		
+		
+    {
+            "annotation": [
+              {
+                "displayName": "ReadsPerSecond/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "ReadsPerSecond", 
+            "counterSpecifier": "/builtin/disk/ReadsPerSecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "WritesPerSecond/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "WritesPerSecond", 
+            "counterSpecifier": "/builtin/disk/WritesPerSecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "TransfersPerSecond/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "TransfersPerSecond", 
+            "counterSpecifier": "/builtin/disk/TransfersPerSecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "AverageReadTime/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "AverageReadTime", 
+            "counterSpecifier": "/builtin/disk/AverageReadTime(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "AverageWriteTime/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "AverageWriteTime", 
+            "counterSpecifier": "/builtin/disk/AverageWriteTime(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "AverageTransferTime/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "AverageTransferTime", 
+            "counterSpecifier": "/builtin/disk/AverageTransferTime(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "AverageDiskQueueLength/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "AverageDiskQueueLength", 
+            "counterSpecifier": "/builtin/disk/AverageDiskQueueLength(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "ReadBytesPerSecond/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "ReadBytesPerSecond", 
+            "counterSpecifier": "/builtin/disk/ReadBytesPerSecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "WriteBytesPerSecond/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "WriteBytesPerSecond", 
+            "counterSpecifier": "/builtin/disk/WriteBytesPerSecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+    {
+            "annotation": [
+              {
+                "displayName": "BytesPerSecond/dev/sda1", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "disk", 
+            "condition": 'Name="/dev/sda1"', 
+            "counter": "BytesPerSecond", 
+            "counterSpecifier": "/builtin/disk/BytesPerSecond(/dev/sda1)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }
+
+		
+		
+
+
+		
+		
 		
 		
 		
