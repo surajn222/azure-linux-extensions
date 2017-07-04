@@ -23,10 +23,24 @@
 
 		  
 		  
-		 {
+          {
             "annotation": [
               {
-                "displayName": "Mountpoint1", 
+                "displayName": "Aggregate Filesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem % free space", 
                 "locale": "en-us"
               }
             ], 
@@ -36,25 +50,859 @@
             "counterSpecifier": "/builtin/filesystem/percentfreespace", 
             "type": "builtin", 
             "unit": "Percent"
-          },
-
-		  
-		  
-	      {
+          }, 
+          {
             "annotation": [
               {
-                "displayName": "Mountpoint2", 
+                "displayName": "Aggregate Filesystem % used space", 
                 "locale": "en-us"
               }
             ], 
             "class": "filesystem", 
-            "condition": "IsAggregate=TRUE",
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Filesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "Aggregate Filesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond(/)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem % free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace(/)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem % used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace(/)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace(/)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace(/)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond(/)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond(/)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond(/)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/ Filesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes(/)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		            {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond(/boot)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem % free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace(/boot)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem % used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace(/boot)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace(/boot)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/boot)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace(/boot)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/boot)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond(/boot)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond(/boot)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/boot)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond(/boot)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/boot Filesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes(/boot)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		            {
+            "annotation": [
+              {
+                "displayName": "Filesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem % free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace(/mnt/resource)", 
             "type": "builtin", 
             "unit": "Percent"
-          }
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem % used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "mnt/resource Filesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes(/mnt/resource)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+
 		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		            {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem transfers/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "transferspersecond", 
+            "counterSpecifier": "/builtin/filesystem/transferspersecond(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem % free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem % used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem used space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem read bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytesreadpersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytesreadpersecond(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem free space", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "Bytes"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem % free inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentfreeinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentfreeinodes(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "bytespersecond", 
+            "counterSpecifier": "/builtin/filesystem/bytespersecond(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "BytesPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem reads/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "readspersecond", 
+            "counterSpecifier": "/builtin/filesystem/readspersecond(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem write bytes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "byteswrittenpersecond", 
+            "counterSpecifier": "/builtin/filesystem/byteswrittenpersecond(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem writes/sec", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "writespersecond", 
+            "counterSpecifier": "/builtin/filesystem/writespersecond(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "CountPerSecond"
+          }, 
+          {
+            "annotation": [
+              {
+                "displayName": "/mountdisk Filesystem % used inodes", 
+                "locale": "en-us"
+              }
+            ], 
+            "class": "filesystem", 
+            "condition": "IsAggregate=TRUE", 
+            "counter": "percentusedinodes", 
+            "counterSpecifier": "/builtin/filesystem/percentusedinodes(/mountdisk)", 
+            "type": "builtin", 
+            "unit": "Percent"
+          } 		  
 
 		  
 		

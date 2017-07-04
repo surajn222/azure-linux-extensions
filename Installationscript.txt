@@ -37,6 +37,6 @@ az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnost
 
 
 Command:
-rm -rf allscript2.json* && wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/allscript2.json && sed -i -e  's/StorageAccounthere/'$my_diagnostic_storage_account'/g' allscript2.json && sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json && az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
+rm -rf filesystemscript.json* && wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/filesystemscript.json && sed -i -e  's/StorageAccounthere/'$my_diagnostic_storage_account'/g' filesystemscript.json && sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json && az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
 
 
