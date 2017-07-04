@@ -22,8 +22,8 @@ export my_diagnostic_storage_account=surajmonitoringdisks167
 
 my_vm_resource_id=$(az vm show -g $my_resource_group -n $my_linux_vm --query "id" -o tsv)
 
-sed -i -e 's/StorageAccounthere/'$my_diagnostic_storage_account'/g' memoryscript.json
-sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' memoryscript.json
+sed -i -e 's/StorageAccounthere/'$my_diagnostic_storage_account'/g' allscript2.json
+sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json
 
 	
 
