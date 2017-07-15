@@ -1,5 +1,5 @@
 {
-  "StorageAccount": "ladtest07119253",
+  "StorageAccount": "qkportalvhdspw7ys7v8bm7n",
   "ladCfg": {
     "diagnosticMonitorConfiguration": {
       "eventVolume": "Medium", 
@@ -12,7 +12,7 @@
             "scheduledTransferPeriod": "PT1M"
           }
         ], 
-        "resourceId": "/subscriptions/42bea263-aab6-4194-9c30-49e55c6b2bc7/resourceGroups/ladtest0711/providers/Microsoft.ClassicCompute/virtualMachines/ladtest0711"
+        "resourceId": "/subscriptions/47dbb5fb-6119-4913-829d-1a7ba2d885fe/resourceGroups/surajcentos/providers/Microsoft.ClassicCompute/virtualMachines/surajcentos"
       }, 
       "performanceCounters": {
         "performanceCounterConfiguration": [

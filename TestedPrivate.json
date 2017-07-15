@@ -1,5 +1,5 @@
 {
-    "storageAccountName" : "ladtest07119253",
+    "storageAccountName" : "qkportalvhdspw7ys7v8bm7n",
     "storageAccountEndPoint": "https://core.windows.net",
-    "storageAccountSasToken": "sv=2016-05-31&ss=bfqt&srt=sco&sp=*******************************************************************************560zDo%3D"
+    "storageAccountSasToken": "?sv=2016-05-31&ss=bfqt&srt=sco&sp=rwdlacup&se=2017-07-16T08:00:50Z&st=2017-07-16T00:00:50Z&spr=https&sig=j2PCezigqbSZvepCiNs9t2WY2AWjItOCH4pYOdbSDn4%3D"
 }
