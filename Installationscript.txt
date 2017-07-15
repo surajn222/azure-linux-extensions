@@ -2,7 +2,7 @@ Step1:Install Azure CLI
 
 RHEL: sudo yum check-update; sudo yum install -y gcc libffi-devel python-devel openssl-devel
 sudo apt-get update && sudo apt-get install -y libssl-dev libffi-dev python-dev
-curl -L https://aka.ms/InstallAzureCli | bash -y
+curl -L https://aka.ms/InstallAzureCli | bash
 exec -l $SHELL
 
 Step2:Configure Monitoring
@@ -16,27 +16,28 @@ wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/f
 wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/allscript2.json
 //In the above, change the resource id
 
+
+
+Step3
 export my_resource_group=Suraj-Monitoring
 export my_linux_vm=Suraj-RHEL72-Monitoring-All
  //change this
 export my_diagnostic_storage_account=surajmonitoringdisks167
-
 my_vm_resource_id=$(az vm show -g $my_resource_group -n $my_linux_vm --query "id" -o tsv)
 
 sed -i -e 's/StorageAccounthere/'$my_diagnostic_storage_account'/g' allscript2.json
 sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json
 
 	
-
-my_diagnostic_storage_account_sastoken=$(az storage account generate-sas --account-name $my_diagnostic_storage_account --expiry 9999-12-31T23:59Z --permissions wlacu --resource-types co --services bt -o tsv)
-my_lad_protected_settings="{'storageAccountName': '$my_diagnostic_storage_account', 'storageAccountSasToken': '$my_diagnostic_storage_account_sastoken'}"
-
-az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
+sTEP4
+*my_diagnostic_storage_account_sastoken=$(az storage account generate-sas --account-name $my_diagnostic_storage_account --expiry 9999-12-31T23:59Z --permissions wlacu --resource-types co --services bt -o tsv)
+*my_lad_protected_settings="{'storageAccountName': '$my_diagnostic_storage_account', 'storageAccountSasToken': '$my_diagnostic_storage_account_sastoken'}"
+*az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
 
 
 
 
 Command:
-rm -rf filesystemscript.json* && wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/filesystemscript.json && sed -i -e  's/StorageAccounthere/'$my_diagnostic_storage_account'/g' filesystemscript.json && sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json && az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
+rm -rf allscript2.json* && wget https://raw.githubusercontent.com/surajn222/azure-linux-extensions/master/allscript2.json && sed -i -e  's/StorageAccounthere/'$my_diagnostic_storage_account'/g' allscript2.json && sed -i -e 's@VMResourceIdhere@'$my_vm_resource_id'@g' allscript2.json && az vm extension set --publisher Microsoft.Azure.Diagnostics --name LinuxDiagnostic --version 3.0 --resource-group $my_resource_group --vm-name $my_linux_vm --protected-settings "${my_lad_protected_settings}" --settings allscript2.json
 
 
